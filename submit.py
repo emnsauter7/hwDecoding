@@ -10,7 +10,7 @@ postData=hw2.yourSubmission()
 tokenFile=open('token','a+')
 token=tokenFile.read();
 
-if len(token)==0: 
+if len(token)<6: 
 	tokenResponse=requests.post("https://script.google.com/macros/s/AKfycbzcEo7CyYd4CIN_A_rw6S_LgJmvBxN6yB57vzreuVzvpmERsIf-/exec",data={'requestingToken':1,'email':postData["email"]});
 	token=tokenResponse.text;
 	tokenFile.write(token)
