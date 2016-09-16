@@ -7,7 +7,7 @@ submissionFile=open('hw2.py','r')
 postData=hw2.yourSubmission()
 
 
-tokenFile=open('token','a+')
+tokenFile=open('token','w+')
 token=tokenFile.read();
 
 if len(token)<6: 
