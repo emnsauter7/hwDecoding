@@ -10,7 +10,7 @@ postData=hw2.yourSubmission()
 tokenFile=open('token','w+')
 token=tokenFile.read();
 
-if len(token)<6: 
+if len(token)<6:
 	tokenResponse=requests.post("https://script.google.com/macros/s/AKfycbzcEo7CyYd4CIN_A_rw6S_LgJmvBxN6yB57vzreuVzvpmERsIf-/exec",data={'requestingToken':1,'email':postData["email"]});
 	token=tokenResponse.text;
 	tokenFile.write(token)
@@ -18,6 +18,6 @@ if len(token)<6:
 postData["token"]=token
 postData["submission"]=submissionFile.read()
 subResponse=requests.post("https://script.google.com/macros/s/AKfycbzcEo7CyYd4CIN_A_rw6S_LgJmvBxN6yB57vzreuVzvpmERsIf-/exec",data=postData)
-responseFile=open('submissionResponse.txt','w+')
+responseFile=open('submissionResponse.txt','wb')
 responseFile.write(subResponse.text.encode('utf8'))
-print subResponse.text
+print(subResponse.text)
