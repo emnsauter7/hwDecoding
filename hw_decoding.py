@@ -1,4 +1,4 @@
-# Homework 2 Template Code
+# Decoding Homework Template Code
 #
 # This file will query a randomly shifted text string from http://goo.gl/RssCBE.
 # This string is loaded as a variable named scambledText and also saved to the file scrambledText.txt
@@ -41,4 +41,4 @@ f2.close()
 ### DO NOT CHANGE THE FOLLOWING - Used in submission process
 ##################################################################
 def yourSubmission():
-	return {'email':email,'hw':2,'input':scrambledText,'output':unscrambledText}
+	return {'email':email,'hw':'decoding','input':scrambledText,'output':unscrambledText}

@@ -1,5 +1,5 @@
-# homework2
-Homework 2 Assignment for ENGN1931Z
+# Decoding Homework: Graecum est; non legitur
+Decoding Homework Assignment for ENGN1931Z
 
 A key problem in communication is encoding. Devices need to have a shared methods of representing information, such as text. As you can imagine, there are lots of ways to use binary bits to represent language. Some of the most common are ASCII and UTF-8 which we will discuss in class.
 

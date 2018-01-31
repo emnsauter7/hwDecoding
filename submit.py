@@ -1,10 +1,10 @@
 #Run this script at the end when you are ready to submit your homework to the autograder.
 
-import hw2  # imports your hw2 module
+import hw_decoding  # imports your hw2 module
 import requests
 
-submissionFile=open('hw2.py','r')
-postData=hw2.yourSubmission()
+submissionFile=open('hw_decoding.py','r')
+postData=hw_decoding.yourSubmission()
 
 
 tokenFile=open('token','w+')
