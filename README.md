@@ -11,7 +11,7 @@ Your task is to write code in Python that :
 2. Analyze the returned string to find the random shift value.
 3. Correct the string to determine to what the text says.
 
-`hw2.py` is a template code for the assignment. **Please review the comments at the top of that file.**
+`hw_decoding.py` is a template code for the assignment. **Please review the comments at the top of that file.**
 `submit.py` is the script that will submit your code to the autograder.
 `token` is a file needed for submission.
 
